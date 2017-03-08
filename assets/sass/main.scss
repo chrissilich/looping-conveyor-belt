@@ -1,0 +1,141 @@
+/* 
+==============================================
+CONTENT:	Project Name Here
+AUTHOR:		Your Name Here
+==============================================
+
+TABLE OF CONTENTS:
+
+1. Main Layout
+2. Content
+
+==============================================
+*/
+
+
+
+/* 1. Main Layout ================================= */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #ccc;
+}
+
+.conveyor-area {
+	position: relative;
+	width: 100%;
+	background-color: #333;
+	height: 400px;
+	overflow: hidden;
+
+	.items {
+		position: relative;
+		width: 4000px;
+		height: 100%;
+
+		.item {
+			position: absolute;
+			bottom: 0;
+		}
+
+		.item1 {			
+			width: 200px;
+			height: 200px;
+			background-color: red;
+			left: 50px;
+			bottom: 0;
+		}
+
+		.item2 {			
+			width: 180px;
+			height: 170px;
+			background-color: lighten(red, 20%);
+			left: 350px;
+			bottom: 0;
+		}
+
+		.item3 {			
+			width: 200px;
+			height: 250px;
+			background-color: red;
+			left: 650px;
+			bottom: 0;
+		}
+
+		.item4 {			
+			width: 200px;
+			height: 200px;
+			background-color: lighten(red, 20%);
+			left: 950px;
+			bottom: 0;
+		}
+
+		.item5 {			
+			width: 200px;
+			height: 200px;
+			background-color: blue;
+			left: 1250px;
+			bottom: 0;
+		}
+
+		.item6 {			
+			width: 200px;
+			height: 200px;
+			background-color: lighten(blue, 20%);
+			left: 1550px;
+			bottom: 0;
+		}
+
+		.item7 {			
+			width: 200px;
+			height: 200px;
+			background-color: blue;
+			left: 1850px;
+			bottom: 0;
+		}
+
+		.item8 {			
+			width: 200px;
+			height: 200px;
+			background-color: lighten(blue, 20%);
+			left: 2150px;
+			bottom: 0;
+		}
+
+
+		.item1a {			
+			width: 200px;
+			height: 200px;
+			background-color: red;
+			left: 2450px;
+			bottom: 0;
+		}
+
+		.item2a {			
+			width: 180px;
+			height: 170px;
+			background-color: lighten(red, 20%);
+			left: 2750px;
+			bottom: 0;
+		}
+
+		.item3a {			
+			width: 200px;
+			height: 250px;
+			background-color: red;
+			left: 3050px;
+			bottom: 0;
+		}
+
+		.item4a {			
+			width: 200px;
+			height: 200px;
+			background-color: lighten(red, 20%);
+			left: 3350px;
+			bottom: 0;
+		}
+	}
+}
